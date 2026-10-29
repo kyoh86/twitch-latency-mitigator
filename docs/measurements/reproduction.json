@@ -1,0 +1,111 @@
+{
+  "mode": "maxLatency",
+  "rewindSeconds": 0,
+  "originalBufferControl": {
+    "liveCatchUpSpeedUpEnabled": true,
+    "maxBufferSeconds": 30,
+    "lowLatency": {
+      "minBufferSeconds": 1,
+      "rebufferPenaltySeconds": 1,
+      "minBufferCeilingSeconds": 6
+    },
+    "normalLatency": {
+      "minBufferSeconds": 2,
+      "rebufferPenaltySeconds": 2,
+      "minBufferCeilingSeconds": 10
+    }
+  },
+  "rows": [
+    {
+      "phase": "before",
+      "at": "2026-10-29T01:54:47.459Z",
+      "elapsedSeconds": 0.00010000002384185791,
+      "latencySeconds": 1.779,
+      "bufferSeconds": 1.689339000000004,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 71.932009,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": "2026-10-29T01:54:48.460Z",
+      "elapsedSeconds": 1.001100000023842,
+      "latencySeconds": 1.921,
+      "bufferSeconds": 1.6906809999999979,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 72.933338,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": "2026-10-29T01:54:49.461Z",
+      "elapsedSeconds": 2.0015,
+      "latencySeconds": 1.921,
+      "bufferSeconds": 1.6937440000000095,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 73.932942,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": "2026-10-29T01:54:50.462Z",
+      "elapsedSeconds": 3.002600000023842,
+      "latencySeconds": 1.797,
+      "bufferSeconds": 1.673681000000002,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 74.934339,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": "2026-10-29T01:54:51.462Z",
+      "elapsedSeconds": 4.003400000005961,
+      "latencySeconds": 1.797,
+      "bufferSeconds": 1.6756049999999902,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 75.935078,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": "2026-10-29T01:54:52.463Z",
+      "elapsedSeconds": 5.00390000000596,
+      "latencySeconds": 1.907,
+      "bufferSeconds": 1.6565839999999952,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 76.935434,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "changed",
+      "at": "2026-10-29T01:54:53.464Z",
+      "elapsedSeconds": 6.005,
+      "latencySeconds": 1.907,
+      "bufferSeconds": 1.7007719999999864,
+      "playerRate": 1,
+      "videoRate": 1,
+      "currentTime": 77.936563,
+      "state": "Playing",
+      "enabled": true
+    }
+  ],
+  "errors": [
+    {
+      "message": "Cannot call MediaPlayer.setLiveMaxLatency due to unbound types: N6twitch9MediaTimeE",
+      "code": "Error",
+      "source": "worker"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "Twitch Latency Mitigator"
+  },
+  "extensionDescription": {
+    "message": "Catch up to buffered Twitch live video with an explicit ON/OFF control."
+  },
+  "optionsTitle": {
+    "message": "Twitch Latency Mitigator Settings"
+  },
+  "optionsHeading": {
+    "message": "Live follow settings"
+  },
+  "defaultEnabledLabel": {
+    "message": "Follow live by default (ON)"
+  },
+  "defaultEnabledHelp": {
+    "message": "Automatically follow live when opening a page or switching channels. Catching up skips part of the video."
+  },
+  "manualControlHelp": {
+    "message": "Use the player’s ON/OFF control while watching. Turn it OFF before rewinding."
+  },
+  "autoSaveHelp": {
+    "message": "Changes are saved automatically and apply to the next page you open."
+  },
+  "loadError": {
+    "message": "Could not load settings. Please reload this page."
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saved": {
+    "message": "Saved. Changes apply to the next page you open."
+  },
+  "saveError": {
+    "message": "Could not save settings. Please try again."
+  },
+  "followLabel": {
+    "message": "Follow live"
+  },
+  "followOff": {
+    "message": "Turn OFF before rewinding."
+  },
+  "following": {
+    "message": "Following live"
+  },
+  "waitingPlayback": {
+    "message": "Waiting for playback"
+  },
+  "waitingLive": {
+    "message": "Waiting for live video to follow"
+  },
+  "jumped": {
+    "message": "Skipped ahead $SECONDS$ seconds",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25.0"
+      }
+    }
+  },
+  "followHelp": {
+    "message": "When ON, parts of the video may be skipped to follow live. Turn OFF before rewinding."
+  }
+}

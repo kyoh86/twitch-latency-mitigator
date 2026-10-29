@@ -1,0 +1,12 @@
+[
+  {
+    "lang": "ja",
+    "label": "ライブ追従: OFF",
+    "tooltip": "巻き戻すときはOFFにしてください ONでは映像を一部飛ばしてライブへ追従します。巻き戻すときはOFFにしてください。"
+  },
+  {
+    "lang": "en",
+    "label": "Follow live: OFF",
+    "tooltip": "Turn OFF before rewinding. When ON, parts of the video may be skipped to follow live. Turn OFF before rewinding."
+  }
+]

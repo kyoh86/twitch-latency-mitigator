@@ -1,0 +1,282 @@
+{
+  "original": {
+    "liveCatchUpSpeedUpEnabled": true,
+    "maxBufferSeconds": 30,
+    "lowLatency": {
+      "minBufferSeconds": 1,
+      "rebufferPenaltySeconds": 1,
+      "minBufferCeilingSeconds": 6
+    },
+    "normalLatency": {
+      "minBufferSeconds": 2,
+      "rebufferPenaltySeconds": 2,
+      "minBufferCeilingSeconds": 10
+    }
+  },
+  "rows": [
+    {
+      "phase": "before",
+      "at": 41424.29999998212,
+      "latency": 1.595,
+      "buffer": 1.3564039999999977,
+      "rate": 1,
+      "videoRate": 1,
+      "time": 39.77427,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": 42425.59999999404,
+      "latency": 1.595,
+      "buffer": 5.500406999999996,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 36.611597,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": 43426.69999998808,
+      "latency": 1.595,
+      "buffer": 5.493757000000002,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 37.642253,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": 44427.29999998212,
+      "latency": 5.658,
+      "buffer": 5.423068999999998,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 38.672938,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "baseline",
+      "at": 45428.29999998212,
+      "latency": 5.658,
+      "buffer": 5.437258999999997,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 39.704082,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "disabled",
+      "at": 46429.39999997616,
+      "latency": 5.516,
+      "buffer": 5.366102000000005,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 40.735237,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled",
+      "at": 47429.5,
+      "latency": 5.516,
+      "buffer": 5.4029000000000025,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 41.765117,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled",
+      "at": 48478.89999997616,
+      "latency": 5.627,
+      "buffer": 5.282244999999996,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 42.84577,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled",
+      "at": 49479.19999998808,
+      "latency": 5.627,
+      "buffer": 5.319477999999997,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 43.875205,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled",
+      "at": 50479.89999997616,
+      "latency": 5.469,
+      "buffer": 5.310952999999998,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 44.907724,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 51480.09999999404,
+      "latency": 5.469,
+      "buffer": 5.237862,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 45.94081,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 52482.29999998212,
+      "latency": 5.344,
+      "buffer": 5.066341000000001,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 46.972992,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 53483.29999998212,
+      "latency": 5.344,
+      "buffer": 5.019502000000003,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 48.00384,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 54484.19999998808,
+      "latency": 5.483,
+      "buffer": 4.955188999999997,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 49.034153,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 55484.29999998212,
+      "latency": 5.483,
+      "buffer": 4.9914190000000005,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 50.064922,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 56485.39999997616,
+      "latency": 5.317,
+      "buffer": 4.892941999999998,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 51.096396,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 57485.69999998808,
+      "latency": 5.171,
+      "buffer": 4.880752999999999,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 52.12559,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "disabled+rate1.1",
+      "at": 58486.69999998808,
+      "latency": 5.171,
+      "buffer": 4.832661999999999,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 53.156674,
+      "state": "Playing",
+      "enabled": false
+    },
+    {
+      "phase": "restored",
+      "at": 59488.39999997616,
+      "latency": 5.064,
+      "buffer": 4.849522,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 54.189822,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "restored",
+      "at": 60488.69999998808,
+      "latency": 5.064,
+      "buffer": 4.804863999999995,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 55.218476,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "restored",
+      "at": 61489.59999999404,
+      "latency": 5.159,
+      "buffer": 4.805699000000004,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 56.250642,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "restored",
+      "at": 62489.79999998212,
+      "latency": 5.159,
+      "buffer": 4.709868,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 57.279473,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "restored",
+      "at": 63490.39999997616,
+      "latency": 5.041,
+      "buffer": 4.727556,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 58.311783,
+      "state": "Playing",
+      "enabled": true
+    },
+    {
+      "phase": "restored",
+      "at": 64491.29999998212,
+      "latency": 5.041,
+      "buffer": 4.647687000000005,
+      "rate": 1.0299999713897705,
+      "videoRate": 1.0299999713897705,
+      "time": 59.341646,
+      "state": "Playing",
+      "enabled": true
+    }
+  ]
+}

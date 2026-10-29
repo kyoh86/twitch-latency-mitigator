@@ -1,0 +1,11 @@
+{
+  "itemId": "kdleejjbfihefcckhcblndelkiilchmb",
+  "version": "0.1.0",
+  "status": "pending_review",
+  "observedStatus": "審査待ち",
+  "confirmation": "この 拡張機能 は審査のために送信されました。",
+  "autoPublishAfterApproval": true,
+  "observedAtUtc": "2026-10-29T02:43:54.106621+00:00",
+  "privacyPolicyUrl": "https://kyoh86.dev/twitch-latency-mitigator/privacy/",
+  "zipSha256": "3949a35bae03ad806c73b2658d8009b22a7c60d231560c6f08f441d5bb82a0ab"
+}

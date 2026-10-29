@@ -1,0 +1,30 @@
+{
+  "before": {
+    "time": 379.343758,
+    "buffer": 2.0962410000000204,
+    "button": "ライブ追従: OFF",
+    "pressed": "false",
+    "paused": false
+  },
+  "off": {
+    "time": 361.28683,
+    "buffer": 22.158502999999996,
+    "button": "ライブ追従: OFF",
+    "pressed": "false",
+    "paused": false
+  },
+  "on": {
+    "time": 383.799072,
+    "buffer": 2.0995939999999678,
+    "button": "ライブ追従: ON",
+    "pressed": "true",
+    "paused": false
+  },
+  "offAgain": {
+    "time": 379.745811,
+    "buffer": 8.17952200000002,
+    "button": "ライブ追従: OFF",
+    "pressed": "false",
+    "paused": false
+  }
+}

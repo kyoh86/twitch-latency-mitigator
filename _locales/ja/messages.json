@@ -1,0 +1,65 @@
+{
+  "extensionName": {
+    "message": "Twitch Latency Mitigator"
+  },
+  "extensionDescription": {
+    "message": "明示的なON/OFFでTwitchのライブ再生を取得済み映像の先へ追従させます。"
+  },
+  "optionsTitle": {
+    "message": "Twitch Latency Mitigator の設定"
+  },
+  "optionsHeading": {
+    "message": "ライブ追従の設定"
+  },
+  "defaultEnabledLabel": {
+    "message": "デフォルトでON（追従）"
+  },
+  "defaultEnabledHelp": {
+    "message": "ページを開いたときや別チャンネルへ移動したとき、自動でライブに追従します。追いつく際は映像の一部を飛ばします。"
+  },
+  "manualControlHelp": {
+    "message": "視聴中はプレイヤー内のON/OFFで切り替えられます。巻き戻す前にOFFにしてください。"
+  },
+  "autoSaveHelp": {
+    "message": "変更は自動保存され、次に開くページから適用されます。"
+  },
+  "loadError": {
+    "message": "設定を読み込めませんでした。ページを再読み込みしてください。"
+  },
+  "saving": {
+    "message": "保存中…"
+  },
+  "saved": {
+    "message": "保存しました。次に開くページから適用されます。"
+  },
+  "saveError": {
+    "message": "保存できませんでした。もう一度お試しください。"
+  },
+  "followLabel": {
+    "message": "ライブ追従"
+  },
+  "followOff": {
+    "message": "巻き戻すときはOFFにしてください"
+  },
+  "following": {
+    "message": "追従中"
+  },
+  "waitingPlayback": {
+    "message": "再生を待っています"
+  },
+  "waitingLive": {
+    "message": "追従できるライブ映像を待っています"
+  },
+  "jumped": {
+    "message": "$SECONDS$秒先へ移動しました",
+    "placeholders": {
+      "seconds": {
+        "content": "$1",
+        "example": "25.0"
+      }
+    }
+  },
+  "followHelp": {
+    "message": "ONでは映像を一部飛ばしてライブへ追従します。巻き戻すときはOFFにしてください。"
+  }
+}

@@ -1,0 +1,31 @@
+[
+  {
+    "method": "setLiveSpeedUpRate",
+    "value": 1.1,
+    "errors": [],
+    "messages": [],
+    "latency": 1.479,
+    "rate": 1,
+    "state": "Playing"
+  },
+  {
+    "method": "setLiveMaxLatency",
+    "value": 3,
+    "errors": [
+      {
+        "message": "Cannot call MediaPlayer.setLiveMaxLatency due to unbound types: N6twitch9MediaTimeE",
+        "code": "Error",
+        "source": "worker"
+      }
+    ],
+    "messages": [
+      {
+        "type": "PlayerWorkerError",
+        "message": "Cannot call MediaPlayer.setLiveMaxLatency due to unbound types: N6twitch9MediaTimeE"
+      }
+    ],
+    "latency": 1.578,
+    "rate": 1,
+    "state": "Playing"
+  }
+]

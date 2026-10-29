@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; font: 16px/1.7 system-ui, sans-serif; }
+body { margin: 0; padding: 40px 24px; }
+main { max-width: 640px; margin: auto; }
+h1 { font-size: 24px; }
+h2 { font-size: 20px; margin-top: 32px; }
+label { display: flex; align-items: center; gap: 8px; font-weight: 600; cursor: pointer; }
+input { width: 18px; height: 18px; accent-color: #9146ff; }
+p { color: light-dark(#555, #ccc); }
+#status { min-height: 1.7em; }

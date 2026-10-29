@@ -1,0 +1,24 @@
+{
+  "enabled": {
+    "checked": true,
+    "stored": true,
+    "status": "保存しました。次に開くページから適用されます。"
+  },
+  "persisted": true,
+  "initial": {
+    "label": "ライブ追従: ON",
+    "on": true
+  },
+  "currentUnchanged": {
+    "label": "ライブ追従: ON",
+    "on": true
+  },
+  "manualOff": {
+    "label": "ライブ追従: OFF",
+    "on": false
+  },
+  "afterReload": {
+    "label": "ライブ追従: ON",
+    "on": true
+  }
+}

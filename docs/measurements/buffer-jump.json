@@ -1,0 +1,271 @@
+{
+  "before": {
+    "at": "2026-10-29T01:57:28.519Z",
+    "connected": true,
+    "latencySeconds": 2.091,
+    "bufferSeconds": 2.003610000000009,
+    "lowLatency": true,
+    "state": "Playing",
+    "playerRate": 1,
+    "videoRate": 1,
+    "paused": false,
+    "currentTime": 150.700402,
+    "buffered": [
+      [
+        120.017,
+        152.703999
+      ]
+    ],
+    "seekable": [
+      [
+        0,
+        1073741824
+      ]
+    ],
+    "adLabelPresent": false
+  },
+  "delayed": {
+    "at": "2026-10-29T01:57:32.520Z",
+    "connected": true,
+    "latencySeconds": 2.091,
+    "bufferSeconds": 27.039409000000006,
+    "lowLatency": true,
+    "state": "Playing",
+    "playerRate": 1.0299999713897705,
+    "videoRate": 1.0299999713897705,
+    "paused": false,
+    "currentTime": 129.653934,
+    "buffered": [
+      [
+        120.017,
+        156.693333
+      ]
+    ],
+    "seekable": [
+      [
+        0,
+        1073741824
+      ]
+    ],
+    "adLabelPresent": false
+  },
+  "preview": {
+    "currentTime": 129.653934,
+    "targetTime": 154.693333,
+    "skipSeconds": 25.039399000000003,
+    "bufferSeconds": 27.039399000000003,
+    "latencySeconds": 2.091,
+    "reserveSeconds": 2
+  },
+  "jump": {
+    "currentTime": 129.653934,
+    "targetTime": 154.693333,
+    "skipSeconds": 25.039399000000003,
+    "bufferSeconds": 27.039399000000003,
+    "latencySeconds": 2.091,
+    "reserveSeconds": 2,
+    "jumped": true
+  },
+  "rows": [
+    {
+      "at": "2026-10-29T01:57:33.521Z",
+      "connected": true,
+      "latencySeconds": 2.731,
+      "bufferSeconds": 2.0347930000000076,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 155.597215,
+      "buffered": [
+        [
+          126.017,
+          157.631999
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:34.524Z",
+      "connected": true,
+      "latencySeconds": 2.323,
+      "bufferSeconds": 2.077430000000021,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 156.599913,
+      "buffered": [
+        [
+          126.017,
+          158.677333
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:35.525Z",
+      "connected": true,
+      "latencySeconds": 2.323,
+      "bufferSeconds": 2.1003310000000113,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 157.601013,
+      "buffered": [
+        [
+          128.017,
+          159.701333
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:36.526Z",
+      "connected": true,
+      "latencySeconds": 2.201,
+      "bufferSeconds": 2.0805699999999945,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 158.602113,
+      "buffered": [
+        [
+          128.017,
+          160.682666
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:37.534Z",
+      "connected": true,
+      "latencySeconds": 2.201,
+      "bufferSeconds": 2.0757289999999955,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 159.609619,
+      "buffered": [
+        [
+          130.017,
+          161.685333
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:38.536Z",
+      "connected": true,
+      "latencySeconds": 2.309,
+      "bufferSeconds": 2.076266000000004,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 160.611736,
+      "buffered": [
+        [
+          130.017,
+          162.687999
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:39.537Z",
+      "connected": true,
+      "latencySeconds": 2.309,
+      "bufferSeconds": 2.0779500000000155,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 161.61272,
+      "buffered": [
+        [
+          132.017,
+          163.690666
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    },
+    {
+      "at": "2026-10-29T01:57:40.538Z",
+      "connected": true,
+      "latencySeconds": 2.168,
+      "bufferSeconds": 2.0796169999999847,
+      "lowLatency": true,
+      "state": "Playing",
+      "playerRate": 1,
+      "videoRate": 1,
+      "paused": false,
+      "currentTime": 162.613717,
+      "buffered": [
+        [
+          132.017,
+          164.693333
+        ]
+      ],
+      "seekable": [
+        [
+          0,
+          1073741824
+        ]
+      ],
+      "adLabelPresent": false
+    }
+  ]
+}

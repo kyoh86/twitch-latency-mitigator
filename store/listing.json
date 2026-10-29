@@ -1,0 +1,75 @@
+{
+  "status": "submitted-pending-review",
+  "target": "Chrome Web Store",
+  "version": "0.1.0",
+  "category_suggestion": "Tools",
+  "website_url": "https://github.com/kyoh86/twitch-latency-mitigator",
+  "support_url": "https://github.com/kyoh86/twitch-latency-mitigator/issues",
+  "privacy_policy_url": "https://kyoh86.dev/twitch-latency-mitigator/privacy/",
+  "locales": {
+    "en": {
+      "name": "Twitch Latency Mitigator",
+      "short_description": "Catch up to buffered Twitch live video with an explicit ON/OFF control.",
+      "description": "When your Twitch player falls behind video it has already received, Twitch Latency Mitigator helps it catch up by skipping forward within the available buffer.\n\nUse the Follow live ON/OFF button in Twitch's standard player control bar. The button hides together with the other controls. Turn it OFF before rewinding intentionally.\n\nWhen enabled, the extension checks once per second. If it can skip ahead by at least 5 seconds, it moves forward while keeping about 2 seconds of buffered video. Jumps are at least 5 seconds apart. Catching up skips part of the video; it does not speed up playback.\n\nChoose Follow live by default in the extension options. It is OFF until you enable it. Changes apply to the next page you open or channel you switch to, while the current page's manual selection is preserved. Paused video is left paused.\n\nEnglish and Japanese interfaces are included. Settings are stored locally in your browser. There are no accounts, analytics, advertising, or developer-operated servers.\n\nThis helps only when received video is ahead of the playback position. It cannot remove delay before video reaches your browser. It relies on Twitch's player internals, which can change. Advertisement detection is not guaranteed.\n\nIndependent project, not affiliated with or endorsed by Twitch."
+    },
+    "ja": {
+      "name": "Twitch Latency Mitigator",
+      "short_description": "明示的なON/OFFでTwitchのライブ再生を取得済み映像の先へ追従させます。",
+      "description": "Twitchの映像が先まで届いているのに再生位置が遅れたとき、バッファ内を前へ飛んで追いつく拡張機能です。\n\nTwitch標準コントロールバー内の「ライブ追従: ON/OFF」で操作します。ボタンは他のコントローラーと一緒に表示・非表示になります。自分で巻き戻すときは、先にOFFにしてください。\n\nONでは毎秒確認し、5秒以上先へ飛べる場合に、約2秒分のバッファを残して前方シークします。シークの間隔は最低5秒です。映像の一部を飛ばす方式で、倍速再生ではありません。\n\n拡張の設定で「デフォルトでON（追従）」を選べます。未設定時はOFFです。設定変更は次に開くページや移動先のチャンネルから適用され、視聴中の手動ON/OFFは維持します。一時停止中は操作しません。\n\n日本語・英語に対応。設定はブラウザー内に保存します。アカウント登録、アクセス解析、広告、開発者のサーバーへの送信はありません。\n\n改善できるのは取得済み映像に対する再生遅れです。映像が届く前の遅延は解消できません。Twitch内部のプレイヤー実装に依存するため、サイト変更で動作しなくなる可能性があります。広告検出は完全ではありません。\n\nTwitchとは無関係の独立したプロジェクトです。Twitchによる提供・承認を受けた拡張ではありません。"
+    }
+  },
+  "single_purpose": "Help viewers catch up to received Twitch live video using an explicit follow-live ON/OFF control.",
+  "permission_justifications": {
+    "storage": "Store the user's default follow-live preference locally and restore it on later pages. No playback data or browsing history is saved.",
+    "https://www.twitch.tv/*": "Insert the follow-live control into Twitch's player and inspect local playback/buffer state so received video can be advanced. The current Twitch page path is checked in memory to reset the control to the saved default on navigation."
+  },
+  "remote_code": "No remote code is loaded or executed by the extension. All extension JavaScript and other executable resources are packaged in the upload ZIP.",
+  "data_handling_review": {
+    "local_processing": [
+      "Current Twitch page path to detect navigation",
+      "Video playback position, buffer ranges, duration, live latency and player state",
+      "Presence of an advertisement label"
+    ],
+    "local_storage": [
+      "defaultEnabled boolean"
+    ],
+    "developer_transmission": "None",
+    "third_party_sharing": "None by the extension. Twitch continues operating its own website and video delivery.",
+    "dashboard_note": "Review the dashboard's data categories against this local processing; do not state that no data is handled merely because none is sent to a server.",
+    "submitted_categories": [
+      "Web history (current Twitch page path, processed locally)",
+      "Website content (player timing/state, processed locally)"
+    ]
+  },
+  "reviewer_instructions": [
+    "No extension account or paid subscription is required. Open a live channel at https://www.twitch.tv/ and finish any site prompts or ads.",
+    "Move the pointer over the video to reveal Twitch's controls. Find Follow live (ライブ追従) beside the settings icon.",
+    "The initial state is OFF. Switch ON to follow the received buffer; switch OFF before intentional rewinding.",
+    "The extension only jumps when there are at least 5 seconds available to skip while retaining 2 seconds of buffer; no jump is expected on a healthy player close to the received edge.",
+    "Open the extension options, enable Follow live by default, then reload the Twitch page to verify ON. Changing this preference does not overwrite the current page's manual selection.",
+    "The extension uses private Twitch player state only to identify live content and read timing; it does not access Twitch login credentials or change network responses."
+  ],
+  "required_before_submission": [],
+  "references": [
+    "https://developer.chrome.com/docs/webstore/register/",
+    "https://developer.chrome.com/docs/webstore/prepare",
+    "https://developer.chrome.com/docs/webstore/images",
+    "https://developer.chrome.com/docs/webstore/publish",
+    "https://developer.chrome.com/docs/webstore/program-policies/user-data-faq"
+  ],
+  "developer_account": "Registered (confirmed by user)",
+  "screenshots": [
+    "store/player-ja.png",
+    "store/options-ja.png"
+  ],
+  "icon": "assets/icon-128.png",
+  "privacy_policy_hosting": "Published at https://kyoh86.dev/twitch-latency-mitigator/privacy/ via kyoh86.dev commit 7aa048c; Cloudflare Pages deployment succeeded and HTTP 200 with both languages verified.",
+  "submission_browser_status": "Submitted successfully from the authenticated developer dashboard; status: 審査待ち (pending review).",
+  "item_id": "kdleejjbfihefcckhcblndelkiilchmb",
+  "auto_publish_after_approval": true,
+  "distribution": {
+    "pricing": "free",
+    "visibility": "public",
+    "regions": "all"
+  }
+}

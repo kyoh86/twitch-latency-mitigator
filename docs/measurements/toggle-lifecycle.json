@@ -1,0 +1,16 @@
+{
+  "periodic": {
+    "buffer": 2.213564000000005,
+    "on": "true"
+  },
+  "paused": {
+    "paused": true,
+    "position": 0,
+    "after": 0,
+    "on": "true",
+    "status": "再生を待っています"
+  },
+  "navigation": {
+    "on": "false"
+  }
+}
